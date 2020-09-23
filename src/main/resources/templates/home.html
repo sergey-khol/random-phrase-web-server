@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<link href="css/text-style.css" rel="stylesheet">
+<p class="text"><span class="text__first"><span class="text__word" th:text=" ${phrase_part1}"></span><span
+        class="text__first-bg"></span></span><br><span
+        class="text__second"><span class="text__word" th:text=" ${phrase_part2}"></span><span class="text__second-bg"
+></span></span>
+</p>
+<script src="js/text-animation.js" type="application/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" type="application/javascript"></script>
+</body>
+</html>
