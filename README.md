@@ -33,6 +33,6 @@ Another way to start the application is to create a run configuration of `Applic
 ### Usage
 
 Home page is available at http://localhost:8080
-![](https://raw.githubusercontent.com/freezzet/random-phrase-web-server/master/readme_result.png)
+![](https://raw.githubusercontent.com/sergey-khol/random-phrase-web-server/master/readme_result.png)
 
 Every time you reload the page, a random phrase will be displayed
